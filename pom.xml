@@ -14,5 +14,11 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+  <distributionManagement>
+  <repository>
+    <id>releases</id>
+    <url>http://52.91.147.122:8081/nexus/content/repositories/releases</url>
+  </repository>
+  </distributionManagement>
   </dependencies>
 </project>
